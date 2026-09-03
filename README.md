@@ -2,6 +2,8 @@
 
 **Open platform for learning, building, experimenting with, and developing ESP-based drones.**
 
+**Learn it. Build it. Change it. Create your own.**
+
 ESPFlight brings together open-source flight firmware, open hardware reference designs, documentation, and the ESPFlight Application to provide a practical foundation for creating and exploring ESP-based drone systems.
 
 ESPFlight is designed for enthusiasts, students, educators, Makers, developers, and engineers who want to learn how drone systems work, build their own drones, experiment with the technology, modify it, and develop their own projects.
@@ -60,4 +62,4 @@ The official identity, purpose, audience, and philosophy of ESPFlight are docume
 
 ## Website
 
-https://espflight.com
+[espflight.com](https://espflight.com)
