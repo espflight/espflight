@@ -4,18 +4,33 @@
 
 **Learn it. Build it. Change it. Create your own.**
 
+[Website](https://espflight.com) · [Build v1.0](https://github.com/espflight/docs/blob/main/BUILD_V1.0.md) · [Documentation](https://espflight.com/docs/) · [Firmware](https://github.com/espflight/firmware) · [Hardware Reference](https://github.com/espflight/hardware) · [Application](https://github.com/espflight/application)
+
 ESPFlight brings together open-source flight firmware, open hardware reference designs, documentation, and the ESPFlight Application to provide a practical foundation for creating and exploring ESP-based drone systems.
 
 ESPFlight is designed for enthusiasts, students, educators, Makers, developers, and engineers who want to learn how drone systems work, build their own drones, experiment with the technology, modify it, and develop their own projects.
+
+## Start with ESPFlight v1.0
+
+The current validated platform baseline is:
+
+- **ESPFlight Firmware v1.0.0**
+- **ESPFlight Hardware Reference v1.0**
+- **ESPFlight Application v1.0.0**
+- **ESPFlight Protocol 2**
+
+For the shortest official path from hardware to first controlled flight, see:
+
+**[Build ESPFlight v1.0](https://github.com/espflight/docs/blob/main/BUILD_V1.0.md)**
 
 ## What ESPFlight Provides
 
 ESPFlight consists of:
 
-* Open-source flight firmware
-* Open hardware reference designs
-* ESPFlight Application for configuration and control
-* Documentation and build guides
+* [Open-source flight firmware](https://github.com/espflight/firmware)
+* [Open hardware reference designs](https://github.com/espflight/hardware)
+* [ESPFlight Application](https://github.com/espflight/application) for configuration and control
+* [Documentation and build guides](https://espflight.com/docs/)
 * A foundation for custom ESP-based drone development
 
 ## Open by Design
