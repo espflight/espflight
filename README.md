@@ -2,7 +2,7 @@
 
 **Open platform for learning, building, experimenting with, and developing ESP-based drones.**
 
-**Learn it. Build it. Change it. Create your own.**
+**Learn. Build. Fly.**
 
 [Website](https://espflight.com) · [Build v1.0](https://github.com/espflight/docs/blob/main/BUILD_V1.0.md) · [Documentation](https://espflight.com/docs/) · [Firmware](https://github.com/espflight/firmware) · [Hardware Reference](https://github.com/espflight/hardware) · [Application](https://github.com/espflight/application)
 
@@ -51,7 +51,7 @@ Independent products based on ESPFlight should use their own names and branding 
 
 ## Project Philosophy
 
-**Learn it. Build it. Change it. Create your own.**
+**Learn. Build. Fly.**
 
 ## Licensing
 
