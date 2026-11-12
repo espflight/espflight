@@ -61,9 +61,11 @@ ESPFlight aims to reduce the gap between learning about drone technology and act
 
 The platform encourages users not only to use a working system, but also to understand it, experiment with it, modify it, and eventually create their own solutions.
 
-ESPFlight is built around four simple ideas:
+The official ESPFlight slogan is:
 
-**Learn it. Build it. Change it. Create your own.**
+**Learn. Build. Fly.**
+
+The broader philosophy remains to learn from working systems, build real hardware, experiment with and modify the technology, and create independent solutions.
 
 ---
 
@@ -79,6 +81,6 @@ ESPFlight is built around four simple ideas:
 
 **ESPFlight provides an open foundation for learning, building, experimenting with, and developing ESP-based drones. By combining open-source flight firmware, open hardware reference designs, documentation, and the ESPFlight Application, the platform allows users to build a working drone while also understanding, modifying, and extending the technology behind it. ESPFlight can also serve as a foundation for independent kits and products released under their creators' own brands.**
 
-## Core Message
+## Official Slogan
 
-**Learn it. Build it. Change it. Create your own.**
+**Learn. Build. Fly.**
