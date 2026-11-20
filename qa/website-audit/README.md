@@ -1,23 +1,35 @@
 # ESPFlight — Website Audit
 
-**Cycle:** `website-zero-start-20261120`
-**Initialized:** 2026-11-20
-**Progress:** 0 pages audited / 0 pages deployed or verified.
+**Active cycle:** `website-zero-start-20261120` (initialized 2026-11-20).
 
-**First page:** Homepage — `index.html` and `fa/index.html`.
-**Source:** Verify the current complete website source before the first audit. Initial source candidate: `public_html_11202026.zip`. Do not infer a page count from old reports.
+## Progress
 
-## Permanent tracking
-- `progress.json` — authoritative project state and page ordering.
-- `issues.json` — verified new-cycle issues only.
-- `changelog.md` — audited actions and test evidence.
-- `SESSION_HANDOFF.md` — cross-session continuation.
+| Status | Count |
+| --- | ---: |
+| Confirmed bilingual page pairs | 82 |
+| Locally audited / ready | **1** |
+| Pending | **81** |
+| Deployed and production-verified | **0** |
+| Blocked / stale | **0** |
 
-## Approved slogans
-- English: **Learn. Build. Fly.**
-- Persian: **یاد بگیر. بساز. پرواز کن.**
+Source: `public_html_11202026.zip` (SHA-256 `e84eb0e1e0a9a71bb7504451b43de479283f5551fc9b43c24f0e3de7c2e747b1`). Source inventory derived from the current uploaded archive.
 
-## Continuity
-On future chats, read `progress.json` from this audit branch first and **resume**, never reinitialize. Complete the first page in actual source order and commit the evidence. Keep production site code separate.
+**Page 001:** [Homepage EN/FA audit](HOMEPAGE_AUDIT_20261120.md) — reviewed locally with no source edits; the approved slogans remain intact.
 
-No production website files or services were modified by initializing the QA tracker.
+**Next:** Page 002 Platform, `platform/index.html` and `fa/platform/index.html`.
+
+## Tracking
+
+- `progress.json`: source-derived ordered inventory and current page statuses.
+- `issues.json`: only newly verified issues in this cycle (currently empty).
+- `changelog.md`: actual work, tests, and limitations.
+- `SESSION_HANDOFF.md`: exact continuation instructions.
+- `HOMEPAGE_AUDIT_20261120.md`: page 001 audit evidence.
+
+## Owner-approved slogans
+- EN: **Learn. Build. Fly.**
+- FA: **یاد بگیر. بساز. پرواز کن.**
+
+**New chats:** read the current `progress.json` and handoff, continue from Platform (or latest pending page), and never automatically reset the cycle.
+
+This branch only tracks QA metadata. No production site files or API/admin/app/firmware were altered here.
