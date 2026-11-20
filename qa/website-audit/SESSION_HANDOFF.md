@@ -1,6 +1,6 @@
 # ESPFlight Website Audit — Handoff (2026-11-20)
 
-This is a provisional continuity checkpoint. It does **not** certify production.
+This is a provisional continuity checkpoint. See FIVE_PAGE_FOLLOWUP_20261120.md for the latest indexed-content review. It does **not** certify production.
 
 ## Evidence recovered
 - Latest archived five-page batch: Next Steps; Build Overview; Components; Airframe & Power Selection; Assembly.
@@ -27,3 +27,9 @@ Need warnings for GPIO15 (boot strap), GPIO2 (boot behavior), GPIO3 (UART RX), m
 Host deployment, current EN/FA CSS, production headers/redirects, app download availability, complete source diffs, modern browser matrix, physical hardware.
 
 No changes to production, API, admin, mobile app, firmware or flight logic were made by this recovery.
+
+## Update after the recovery checkpoint
+- Inspect `FIVE_PAGE_FOLLOWUP_20261120.md` for findings and exact Not Tested matrix.
+- Five-page group remains blocked; no source changes or production checks made. Indexed captures show old/new sidebar variants.
+- Application v1.0.0 GitHub release `assets=[]` verified; official BUILD_V1.0.md includes an unresolvable release asset reference.
+- Latest full website ZIP is still not readable. Do not use historical 160/160 and 40/40 counts as new tests.
