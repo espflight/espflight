@@ -1,14 +1,18 @@
 # ESPFlight — Website Audit Changelog
 
-## 2026-11-20 — Initialize fresh audit
-- Created cycle `website-zero-start-20261120` with zero reviewed pages.
-- Removed old-cycle reports from active tracking; no prior test or approval was carried over.
+## 2026-11-20 — Initialize zero-start cycle
+- No old page approvals or reports imported. Verified actual original source inventory (82 bilingual page pairs).
 
-## 2026-11-20 — Page 001 Homepage (new-cycle independent verification)
-- Independently opened the actual source archive, checked SHA-256 and enumerated 82 EN/FA page pairs via source primary menu, Docs sidebar, footer and actual file paths.
-- Audited EN `index.html`, FA `fa/index.html`. Preserved both approved slogans verbatim.
-- Verified homepage license claims against official platform documentation.
-- Local tests: 34/34 static; 32/32 responsive visual cases; 24/24 interaction/error cases; site integrity and release preflight PASS.
-- Browser checks ran with inlined local site resources. Host deployment and comprehensive accessibility/performance tests remain unverified.
-- No source file changes; no deployment or rollback ZIP needed.
-- Page 001 status `ready_for_deploy` locally. Page 002 Platform is next; 81 pages pending.
+## 2026-11-20 — Homepage baseline inspection
+- Baseline source was checked. Introductory technical/browser checks passed, but owner requested more than a no-change audit.
+- Homepage re-opened as `in_progress`, not final or deployed.
+
+## 2026-11-20 — Homepage deep visual, content, and UX pass
+- Corrected four noninteractive but action-like hero tiles into eight localized quick navigation anchors (four per language).
+- Added scoped accessible focus/hover/touch styles with no shadows or global dependencies.
+- Improved the hero copy and metadata, connected-components heading, and build section wording in EN/FA.
+- Corrected potentially ambiguous battery status label to supply-voltage data.
+- Kept both official English and Persian slogans untouched.
+- Changed exactly 3 website files; generated verified deployment and rollback ZIPs from current uploaded baseline.
+- Re-ran 20 static, 32 layout/theme/viewport, 24 interaction checks — **76/76 PASS**. Site integrity and release preflight PASS, CSS parser PASS.
+- Current status stays `in_progress` **pending owner visual/content review**. Production/live HTTP not tested. Next audit page after acceptance: Platform.
