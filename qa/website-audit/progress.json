@@ -32,21 +32,32 @@
         "fa_url": "https://espflight.com/fa/",
         "status": "in_progress",
         "source_revision": {
-          "en_sha256": "b475d138caba9ce014f1b2be3509df5a3f2002e1f1f4669057ebf373a9920344",
-          "fa_sha256": "2a0d7b57efab5de90eab059f1b99f6ba4cf20b8f8060653392cefcd4b859aa4f"
+          "baseline_en_sha256": "b475d138caba9ce014f1b2be3509df5a3f2002e1f1f4669057ebf373a9920344",
+          "baseline_fa_sha256": "2a0d7b57efab5de90eab059f1b99f6ba4cf20b8f8060653392cefcd4b859aa4f",
+          "current_en_sha256": "f63553129b771292f2ab2bebbf74f0efb5a950135b5ae3ea1f45fc382e484875",
+          "current_fa_sha256": "e182783324b14b9e26b7a910969075132be1e9ecae87d9519b55f147cc38cac8",
+          "current_home_css_sha256": "75a4fe9cbbfebc0fbacc5e9cd967737e33d29fc7a6db30999e65d1df9cca4e3b"
         },
         "tests": {
-          "static": "34/34 PASS",
+          "static": "20/20 PASS",
           "browser": "32/32 PASS",
           "interactions": "24/24 PASS",
-          "site_integrity": "PASS",
-          "release_preflight": "PASS",
+          "site_integrity": "PASS 164 HTML 22392 local refs",
+          "release_preflight": "PASS 164 HTML 50 CSS 2974 asset refs",
+          "css_parse": "PASS",
+          "zip_integrity": "PASS",
           "production": "NOT TESTED",
-          "source_modifications": 0,
-          "prior_tests": "historical_for_this_cycle_do_not_treat_as_final_visual_acceptance",
-          "visual_final_acceptance": "pending"
+          "owner_visual_acceptance": "PENDING",
+          "browser_method": "Inlined local assets, not production HTTP"
         },
-        "review_reason": "Owner rejected finalization based on technical checks alone; perform deeper visual/content/UX/source improvements before acceptance."
+        "review_reason": "Owner rejected finalization based on technical checks alone; perform deeper visual/content/UX/source improvements before acceptance.",
+        "review_phase": "awaiting_owner_final_visual_content_acceptance",
+        "source_changes": [
+          "index.html",
+          "fa/index.html",
+          "assets/home-ux-v30-20261018.css"
+        ],
+        "notes": "Deeper owner-requested visual/content review produced actionable navigation, content and telemetry updates; source files patched and delivered for review. Both slogans preserved. Do not mark ready_for_deploy until final review acceptance."
       },
       {
         "id": "page-002",
@@ -1041,10 +1052,22 @@
     "url_en": "https://espflight.com/",
     "url_fa": "https://espflight.com/fa/",
     "status": "in_progress",
-    "tests_run": [],
-    "source_change_files": []
+    "review_phase": "awaiting_owner_final_visual_content_acceptance",
+    "tests_run": [
+      "20/20 static",
+      "32/32 browser",
+      "24/24 interaction",
+      "site integrity PASS",
+      "preflight PASS",
+      "CSS parse PASS"
+    ],
+    "source_change_files": [
+      "index.html",
+      "fa/index.html",
+      "assets/home-ux-v30-20261018.css"
+    ]
   },
-  "next_step": "Re-audit Homepage EN/FA for visual, content, UX and code quality; implement justified improvements, test, then resume Platform.",
+  "next_step": "Owner reviews Homepage visual/content patch; after acceptance set ready_for_deploy then audit Platform (page-002). Do not deploy or mark production verified yet.",
   "approved_brand": {
     "brand": "ESPFlight",
     "slogan_en": "Learn. Build. Fly.",
