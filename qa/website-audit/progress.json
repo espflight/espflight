@@ -1,0 +1,1761 @@
+{
+  "schema_version": "1.0.0",
+  "project": "ESPFlight website",
+  "updated_at": "2026-11-20",
+  "registry_state": "RECOVERED_PROVISIONAL",
+  "status_policy": "Prior audit reports are evidence of earlier local work, not current source or production verification.",
+  "official_brand": "ESPFlight",
+  "official_slogan": "Learn. Build. Fly.",
+  "source_baseline": {
+    "readable_latest_full_website_source": false,
+    "candidate_uploads": [
+      "public_html_latest.zip",
+      "public_html_11192026 (1).zip",
+      "ESPFlight_Platform_20261119_FULL_SOURCE_ARCHIVE.zip"
+    ],
+    "materialization": "Failed: no authorized raw-byte path",
+    "live_http_tested": false
+  },
+  "inventory": {
+    "source_report_en_pages": 82,
+    "source_report_fa_pages": 82,
+    "identified_units": 81,
+    "docs_units": 65,
+    "website_units": 16,
+    "accuracy": "Provisional; full source and sitemap unavailable"
+  },
+  "last_historical_batch": {
+    "pages": [
+      "Next Steps",
+      "Build Overview",
+      "Components",
+      "Airframe & Power Selection",
+      "Assembly"
+    ],
+    "report": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
+    "deploy_archive": "ESPFlight_Docs_Next_Five_Pages_20261120_DEPLOY_INSIDE_PUBLIC_HTML.zip",
+    "reported_local_layout": "160/160",
+    "reported_interactions": "40/40",
+    "actual_deployment_verified": false
+  },
+  "recovery_queue": {
+    "next_required_action": "Reconcile five-page batch against latest source/production; verify before skipping. Next new page is Wiring & Orientation.",
+    "first_unresolved_page_id": "docs-start-here-next-steps",
+    "next_new_page_id": "docs-build-wiring-orientation"
+  },
+  "pages": [
+    {
+      "id": "docs-documentation-documentation-home",
+      "title": "Documentation Home",
+      "category": "Documentation",
+      "navigation_order": 1,
+      "en_url": "https://espflight.com/docs/",
+      "fa_url": "https://espflight.com/fa/docs/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Home_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-learning-paths-learning-home",
+      "title": "Learning Home",
+      "category": "Learning Paths",
+      "navigation_order": 2,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-learning-paths-beginner-path",
+      "title": "Beginner Path",
+      "category": "Learning Paths",
+      "navigation_order": 3,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "Individual Docs Learning Paths audit reports (20261120)",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-learning-paths-experienced-path",
+      "title": "Experienced Path",
+      "category": "Learning Paths",
+      "navigation_order": 4,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "Individual Docs Learning Paths audit reports (20261120)",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-learning-paths-advanced-developer",
+      "title": "Advanced / Developer",
+      "category": "Learning Paths",
+      "navigation_order": 5,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "Individual Docs Learning Paths audit reports (20261120)",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-start-here-introduction",
+      "title": "Introduction",
+      "category": "Start Here",
+      "navigation_order": 6,
+      "en_url": "https://espflight.com/docs/getting-started/",
+      "fa_url": "https://espflight.com/fa/docs/getting-started/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Start_Here_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-start-here-safety",
+      "title": "Safety",
+      "category": "Start Here",
+      "navigation_order": 7,
+      "en_url": "https://espflight.com/docs/getting-started/safety/",
+      "fa_url": "https://espflight.com/fa/docs/getting-started/safety/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Start_Here_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-start-here-what-you-need",
+      "title": "What You Need",
+      "category": "Start Here",
+      "navigation_order": 8,
+      "en_url": "https://espflight.com/docs/getting-started/requirements/",
+      "fa_url": "https://espflight.com/fa/docs/getting-started/requirements/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Start_Here_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-start-here-downloads-versions",
+      "title": "Downloads & Versions",
+      "category": "Start Here",
+      "navigation_order": 9,
+      "en_url": "https://espflight.com/docs/getting-started/downloads/",
+      "fa_url": "https://espflight.com/fa/docs/getting-started/downloads/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Start_Here_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-start-here-quick-start",
+      "title": "Quick Start",
+      "category": "Start Here",
+      "navigation_order": 10,
+      "en_url": "https://espflight.com/docs/getting-started/quick-start/",
+      "fa_url": "https://espflight.com/fa/docs/getting-started/quick-start/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Start_Here_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-start-here-next-steps",
+      "title": "Next Steps",
+      "category": "Start Here",
+      "navigation_order": 11,
+      "en_url": "https://espflight.com/docs/getting-started/next-steps/",
+      "fa_url": "https://espflight.com/fa/docs/getting-started/next-steps/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-build-build-overview",
+      "title": "Build Overview",
+      "category": "Build",
+      "navigation_order": 12,
+      "en_url": "https://espflight.com/docs/build/",
+      "fa_url": "https://espflight.com/fa/docs/build/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-build-components",
+      "title": "Components",
+      "category": "Build",
+      "navigation_order": 13,
+      "en_url": "https://espflight.com/docs/build/components/",
+      "fa_url": "https://espflight.com/fa/docs/build/components/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-build-airframe-power-selection",
+      "title": "Airframe & Power Selection",
+      "category": "Build",
+      "navigation_order": 14,
+      "en_url": "https://espflight.com/docs/build/airframe-power/",
+      "fa_url": "https://espflight.com/fa/docs/build/airframe-power/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-build-assembly",
+      "title": "Assembly",
+      "category": "Build",
+      "navigation_order": 15,
+      "en_url": "https://espflight.com/docs/build/assembly/",
+      "fa_url": "https://espflight.com/fa/docs/build/assembly/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-build-wiring-orientation",
+      "title": "Wiring & Orientation",
+      "category": "Build",
+      "navigation_order": 16,
+      "en_url": "https://espflight.com/docs/build/wiring/",
+      "fa_url": "https://espflight.com/fa/docs/build/wiring/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-build-motors-propellers",
+      "title": "Motors & Propellers",
+      "category": "Build",
+      "navigation_order": 17,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-build-hardware-verification",
+      "title": "Hardware Verification",
+      "category": "Build",
+      "navigation_order": 18,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-firmware-docs-firmware-overview",
+      "title": "Firmware Overview",
+      "category": "Firmware Docs",
+      "navigation_order": 19,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-firmware-docs-download-flash",
+      "title": "Download & Flash",
+      "category": "Firmware Docs",
+      "navigation_order": 20,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-firmware-docs-configuration",
+      "title": "Configuration",
+      "category": "Firmware Docs",
+      "navigation_order": 21,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-firmware-docs-safety-failsafe",
+      "title": "Safety & Failsafe",
+      "category": "Firmware Docs",
+      "navigation_order": 22,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-firmware-docs-firmware-reference",
+      "title": "Firmware Reference",
+      "category": "Firmware Docs",
+      "navigation_order": 23,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-espflight-app-docs-app-overview",
+      "title": "App Overview",
+      "category": "ESPFlight App Docs",
+      "navigation_order": 24,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-espflight-app-docs-install-the-app",
+      "title": "Install the App",
+      "category": "ESPFlight App Docs",
+      "navigation_order": 25,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-espflight-app-docs-connect-to-drone",
+      "title": "Connect to Drone",
+      "category": "ESPFlight App Docs",
+      "navigation_order": 26,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-espflight-app-docs-controls",
+      "title": "Controls",
+      "category": "ESPFlight App Docs",
+      "navigation_order": 27,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-espflight-app-docs-telemetry",
+      "title": "Telemetry",
+      "category": "ESPFlight App Docs",
+      "navigation_order": 28,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-espflight-app-docs-configuration",
+      "title": "Configuration",
+      "category": "ESPFlight App Docs",
+      "navigation_order": 29,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-espflight-app-docs-pid-tuning",
+      "title": "PID Tuning",
+      "category": "ESPFlight App Docs",
+      "navigation_order": 30,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-flight-before-you-fly",
+      "title": "Before You Fly",
+      "category": "Flight",
+      "navigation_order": 31,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-flight-bench-test",
+      "title": "Bench Test",
+      "category": "Flight",
+      "navigation_order": 32,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-flight-preflight-check",
+      "title": "Preflight Check",
+      "category": "Flight",
+      "navigation_order": 33,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-flight-first-flight",
+      "title": "First Flight",
+      "category": "Flight",
+      "navigation_order": 34,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-flight-flight-modes",
+      "title": "Flight Modes",
+      "category": "Flight",
+      "navigation_order": 35,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-flight-basic-tuning",
+      "title": "Basic Tuning",
+      "category": "Flight",
+      "navigation_order": 36,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-hardware-reference-docs-overview",
+      "title": "Overview",
+      "category": "Hardware Reference Docs",
+      "navigation_order": 37,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-hardware-reference-docs-board-reference",
+      "title": "Board Reference",
+      "category": "Hardware Reference Docs",
+      "navigation_order": 38,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-hardware-reference-docs-pinout",
+      "title": "Pinout",
+      "category": "Hardware Reference Docs",
+      "navigation_order": 39,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-hardware-reference-docs-power-system",
+      "title": "Power System",
+      "category": "Hardware Reference Docs",
+      "navigation_order": 40,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-hardware-reference-docs-sensors",
+      "title": "Sensors",
+      "category": "Hardware Reference Docs",
+      "navigation_order": 41,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-hardware-reference-docs-motor-outputs",
+      "title": "Motor Outputs",
+      "category": "Hardware Reference Docs",
+      "navigation_order": 42,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-hardware-reference-docs-schematic-pcb",
+      "title": "Schematic & PCB",
+      "category": "Hardware Reference Docs",
+      "navigation_order": 43,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-hardware-reference-docs-bom",
+      "title": "BOM",
+      "category": "Hardware Reference Docs",
+      "navigation_order": 44,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-concepts-how-espflight-works",
+      "title": "How ESPFlight Works",
+      "category": "Concepts",
+      "navigation_order": 45,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-concepts-system-architecture",
+      "title": "System Architecture",
+      "category": "Concepts",
+      "navigation_order": 46,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-concepts-stabilization-control-loop",
+      "title": "Stabilization & Control Loop",
+      "category": "Concepts",
+      "navigation_order": 47,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-concepts-networking",
+      "title": "Networking",
+      "category": "Concepts",
+      "navigation_order": 48,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-concepts-safety-model",
+      "title": "Safety Model",
+      "category": "Concepts",
+      "navigation_order": 49,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-concepts-pid-basics",
+      "title": "PID Basics",
+      "category": "Concepts",
+      "navigation_order": 50,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-developer-developer-overview",
+      "title": "Developer Overview",
+      "category": "Developer",
+      "navigation_order": 51,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Developer_Overview_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-developer-build-from-source",
+      "title": "Build From Source",
+      "category": "Developer",
+      "navigation_order": 52,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Build_From_Source_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-developer-repository-structure",
+      "title": "Repository Structure",
+      "category": "Developer",
+      "navigation_order": 53,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Repository_Structure_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-developer-protocol-2",
+      "title": "Protocol 2",
+      "category": "Developer",
+      "navigation_order": 54,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Protocol_2_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-developer-telemetry-protocol",
+      "title": "Telemetry Protocol",
+      "category": "Developer",
+      "navigation_order": 55,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Telemetry_Protocol_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-developer-configuration-protocol",
+      "title": "Configuration Protocol",
+      "category": "Developer",
+      "navigation_order": 56,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Configuration_Protocol_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-developer-controller-ownership",
+      "title": "Controller Ownership",
+      "category": "Developer",
+      "navigation_order": 57,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Controller_Ownership_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-developer-compatibility",
+      "title": "Compatibility",
+      "category": "Developer",
+      "navigation_order": 58,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Compatibility_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-developer-contributing",
+      "title": "Contributing",
+      "category": "Developer",
+      "navigation_order": 59,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Contributing_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-help-troubleshooting",
+      "title": "Troubleshooting",
+      "category": "Help",
+      "navigation_order": 60,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Troubleshooting_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-help-connection-problems",
+      "title": "Connection Problems",
+      "category": "Help",
+      "navigation_order": 61,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Connection_Problems_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-help-hardware-problems",
+      "title": "Hardware Problems",
+      "category": "Help",
+      "navigation_order": 62,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Four_Help_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-help-flight-problems",
+      "title": "Flight Problems",
+      "category": "Help",
+      "navigation_order": 63,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Four_Help_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-help-faq",
+      "title": "FAQ",
+      "category": "Help",
+      "navigation_order": 64,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Four_Help_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "docs-help-glossary",
+      "title": "Glossary",
+      "category": "Help",
+      "navigation_order": 65,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "blocked",
+      "blockers": [
+        "Source archive not readable in this session; reconcile historical report with actual source"
+      ],
+      "historical_audit": {
+        "report_file": "ESPFlight_Docs_Four_Help_Pages_20261120_AUDIT_REPORT.md",
+        "reported_local_tests": "Historical only — not rerun",
+        "production_verified": false
+      },
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-homepage",
+      "title": "Homepage",
+      "category": "Main Navigation",
+      "navigation_order": 66,
+      "en_url": "https://espflight.com/",
+      "fa_url": "https://espflight.com/fa/",
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-platform",
+      "title": "Platform",
+      "category": "Main Navigation",
+      "navigation_order": 67,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-hardware",
+      "title": "Hardware",
+      "category": "Main Navigation",
+      "navigation_order": 68,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-firmware",
+      "title": "Firmware",
+      "category": "Main Navigation",
+      "navigation_order": 69,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-application",
+      "title": "Application",
+      "category": "Main Navigation",
+      "navigation_order": 70,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-makers",
+      "title": "Makers",
+      "category": "Main Navigation",
+      "navigation_order": 71,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-about",
+      "title": "About",
+      "category": "Main Navigation",
+      "navigation_order": 72,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-support",
+      "title": "Support",
+      "category": "Footer / Other",
+      "navigation_order": 73,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-partner-program",
+      "title": "Partner Program",
+      "category": "Footer / Other",
+      "navigation_order": 74,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-contact",
+      "title": "Contact",
+      "category": "Footer / Other",
+      "navigation_order": 75,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-legal-licensing",
+      "title": "Legal & Licensing",
+      "category": "Footer / Other",
+      "navigation_order": 76,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-brand-policy",
+      "title": "Brand Policy",
+      "category": "Footer / Other",
+      "navigation_order": 77,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-firmware-license",
+      "title": "Firmware License",
+      "category": "Footer / Other",
+      "navigation_order": 78,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-hardware-license",
+      "title": "Hardware License",
+      "category": "Footer / Other",
+      "navigation_order": 79,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-privacy",
+      "title": "Privacy",
+      "category": "Footer / Other",
+      "navigation_order": 80,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    },
+    {
+      "id": "site-terms-of-use",
+      "title": "Terms of Use",
+      "category": "Footer / Other",
+      "navigation_order": 81,
+      "en_url": null,
+      "fa_url": null,
+      "en_source_path": null,
+      "fa_source_path": null,
+      "source_hash": null,
+      "status": "pending",
+      "blockers": [],
+      "historical_audit": null,
+      "current_session_tests": {
+        "source_diff": "not_tested",
+        "browser_render": "not_tested",
+        "production_http": "not_tested"
+      }
+    }
+  ]
+}
