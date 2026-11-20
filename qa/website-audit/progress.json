@@ -41,14 +41,21 @@
       "status": "ready_for_deploy",
       "source_sha256": {
         "en": "b475d138caba9ce014f1b2be3509df5a3f2002e1f1f4669057ebf373a9920344",
-        "fa": "42ca2a8de0e29bf1f143963192513162365adbf154b4d9b768546949ca833dd0"
+        "fa": "2a0d7b57efab5de90eab059f1b99f6ba4cf20b8f8060653392cefcd4b859aa4f"
       },
       "test_results": {
         "sitemap_and_integrity": "pass",
         "responsive_32": "pass_no_overflow_or_js_errors",
         "interaction_and_images_4": "pass",
-        "production": "not_tested"
-      }
+        "production": "not_tested",
+        "source_changed": false,
+        "source_diff": "zero_after_restoring_original",
+        "slogan_localization": "pass_EN_and_FA",
+        "integrity_after_restore": "pass",
+        "release_preflight_after_restore": "pass",
+        "browser_after_restore": "not_rerun"
+      },
+      "notes": "Original Persian H1 restored and preserved; the earlier English-only change was incorrect, withdrawn, and obsolete. No homepage deployment required if host already matches uploaded baseline."
     },
     {
       "id": "page-002",
@@ -1427,5 +1434,11 @@
       "source_sha256": null,
       "test_results": null
     }
-  ]
+  ],
+  "official_slogan": {
+    "en": "Learn. Build. Fly.",
+    "fa": "یاد بگیر. بساز. پرواز کن."
+  },
+  "slogan_policy": "Preserve each approved localized homepage hero: Persian uses یاد بگیر. بساز. پرواز کن. in fa/; English uses Learn. Build. Fly. in en/. Do not replace Persian H1 with English.",
+  "last_correction": "Persian original hero preserved by explicit owner request; no homepage source changes remain."
 }
