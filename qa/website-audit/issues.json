@@ -4,19 +4,20 @@
   "items": [
     {
       "id": "HOME-001",
-      "severity": "medium",
-      "status": "resolved_locally",
+      "severity": "informational",
+      "status": "withdrawn_reverted",
       "page": "fa/index.html",
-      "finding": "Persian homepage H1 translated the permanent official ESPFlight slogan.",
-      "fix": "Use exact Learn. Build. Fly. with lang=en dir=ltr; surrounding localized description retained."
+      "finding": "The previously classified issue was not a defect: Persian homepage uses approved localized slogan.",
+      "fix": "Reverted incorrect English replacement; exact original 'یاد بگیر. بساز. پرواز کن.' is preserved (lang=fa, dir=rtl). English homepage uses 'Learn. Build. Fly.'.",
+      "source_changed": false
     },
     {
       "id": "HOME-002",
       "severity": "medium",
       "status": "pending_production_validation",
       "page": "/",
-      "finding": "Production version has not been compared with this uploaded source; local Chromium navigation was blocked so tests inlined real site CSS/JS/assets.",
-      "next_action": "Back up live fa/index.html, compare hashes, deploy patch, test live server, then move to deployed_verified."
+      "finding": "Live homepage versions still not independently verified against uploaded source; old English-only Persian patch must NOT be deployed.",
+      "next_action": "If live site shows original Persian text, no patch needed. If the incorrect English-only patch was installed, first take live backup and restore original HTML from safe archive after comparing versions."
     }
   ]
 }
