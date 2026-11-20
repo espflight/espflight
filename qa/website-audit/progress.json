@@ -40,7 +40,7 @@
       },
       "status": "ready_for_deploy",
       "source_sha256": {
-        "en": "",
+        "en": "b475d138caba9ce014f1b2be3509df5a3f2002e1f1f4669057ebf373a9920344",
         "fa": "42ca2a8de0e29bf1f143963192513162365adbf154b4d9b768546949ca833dd0"
       },
       "test_results": {
