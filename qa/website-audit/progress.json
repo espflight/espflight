@@ -1,0 +1,1431 @@
+{
+  "schema": "2.0.0",
+  "project": "ESPFlight",
+  "audit_reset": "2026-11-20",
+  "previous_work": "archived historical; all reset to pending except fresh Homepage audit",
+  "brand": "ESPFlight",
+  "slogan": "Learn. Build. Fly.",
+  "source": {
+    "archive": "public_html_11202026.zip",
+    "sha256": "e84eb0e1e0a9a71bb7504451b43de479283f5551fc9b43c24f0e3de7c2e747b1",
+    "html_files": 164,
+    "english": 82,
+    "persian": 82,
+    "css_files": 50,
+    "live_host_compared": false
+  },
+  "counts": {
+    "total": 82,
+    "ready_for_deploy": 1,
+    "deployed_verified": 0,
+    "pending": 81,
+    "blocked": 0
+  },
+  "last_page_completed_locally": "page-001",
+  "next_page": "page-002",
+  "next_page_title": "Platform",
+  "pages": [
+    {
+      "id": "page-001",
+      "order": 1,
+      "title": "Homepage",
+      "category": "Home",
+      "en": {
+        "path": "index.html",
+        "url": "https://espflight.com/"
+      },
+      "fa": {
+        "path": "fa/index.html",
+        "url": "https://espflight.com/fa/"
+      },
+      "status": "ready_for_deploy",
+      "source_sha256": {
+        "en": "",
+        "fa": "42ca2a8de0e29bf1f143963192513162365adbf154b4d9b768546949ca833dd0"
+      },
+      "test_results": {
+        "sitemap_and_integrity": "pass",
+        "responsive_32": "pass_no_overflow_or_js_errors",
+        "interaction_and_images_4": "pass",
+        "production": "not_tested"
+      }
+    },
+    {
+      "id": "page-002",
+      "order": 2,
+      "title": "Platform",
+      "category": "Main navigation",
+      "en": {
+        "path": "platform/index.html",
+        "url": "https://espflight.com/platform/"
+      },
+      "fa": {
+        "path": "fa/platform/index.html",
+        "url": "https://espflight.com/fa/platform/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-003",
+      "order": 3,
+      "title": "Hardware",
+      "category": "Main navigation",
+      "en": {
+        "path": "hardware/index.html",
+        "url": "https://espflight.com/hardware/"
+      },
+      "fa": {
+        "path": "fa/hardware/index.html",
+        "url": "https://espflight.com/fa/hardware/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-004",
+      "order": 4,
+      "title": "Firmware",
+      "category": "Main navigation",
+      "en": {
+        "path": "firmware/index.html",
+        "url": "https://espflight.com/firmware/"
+      },
+      "fa": {
+        "path": "fa/firmware/index.html",
+        "url": "https://espflight.com/fa/firmware/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-005",
+      "order": 5,
+      "title": "App",
+      "category": "Main navigation",
+      "en": {
+        "path": "app/index.html",
+        "url": "https://espflight.com/app/"
+      },
+      "fa": {
+        "path": "fa/app/index.html",
+        "url": "https://espflight.com/fa/app/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-006",
+      "order": 6,
+      "title": "Makers",
+      "category": "Main navigation",
+      "en": {
+        "path": "makers/index.html",
+        "url": "https://espflight.com/makers/"
+      },
+      "fa": {
+        "path": "fa/makers/index.html",
+        "url": "https://espflight.com/fa/makers/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-007",
+      "order": 7,
+      "title": "Documentation Home",
+      "category": "Docs",
+      "en": {
+        "path": "docs/index.html",
+        "url": "https://espflight.com/docs/"
+      },
+      "fa": {
+        "path": "fa/docs/index.html",
+        "url": "https://espflight.com/fa/docs/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-008",
+      "order": 8,
+      "title": "Learning Home",
+      "category": "Docs",
+      "en": {
+        "path": "docs/learn/index.html",
+        "url": "https://espflight.com/docs/learn/"
+      },
+      "fa": {
+        "path": "fa/docs/learn/index.html",
+        "url": "https://espflight.com/fa/docs/learn/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-009",
+      "order": 9,
+      "title": "Beginner Path",
+      "category": "Docs",
+      "en": {
+        "path": "docs/learn/beginner/index.html",
+        "url": "https://espflight.com/docs/learn/beginner/"
+      },
+      "fa": {
+        "path": "fa/docs/learn/beginner/index.html",
+        "url": "https://espflight.com/fa/docs/learn/beginner/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-010",
+      "order": 10,
+      "title": "Experienced Path",
+      "category": "Docs",
+      "en": {
+        "path": "docs/learn/experienced/index.html",
+        "url": "https://espflight.com/docs/learn/experienced/"
+      },
+      "fa": {
+        "path": "fa/docs/learn/experienced/index.html",
+        "url": "https://espflight.com/fa/docs/learn/experienced/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-011",
+      "order": 11,
+      "title": "Advanced / Developer",
+      "category": "Docs",
+      "en": {
+        "path": "docs/learn/developer/index.html",
+        "url": "https://espflight.com/docs/learn/developer/"
+      },
+      "fa": {
+        "path": "fa/docs/learn/developer/index.html",
+        "url": "https://espflight.com/fa/docs/learn/developer/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-012",
+      "order": 12,
+      "title": "Introduction",
+      "category": "Docs",
+      "en": {
+        "path": "docs/getting-started/index.html",
+        "url": "https://espflight.com/docs/getting-started/"
+      },
+      "fa": {
+        "path": "fa/docs/getting-started/index.html",
+        "url": "https://espflight.com/fa/docs/getting-started/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-013",
+      "order": 13,
+      "title": "Safety",
+      "category": "Docs",
+      "en": {
+        "path": "docs/getting-started/safety/index.html",
+        "url": "https://espflight.com/docs/getting-started/safety/"
+      },
+      "fa": {
+        "path": "fa/docs/getting-started/safety/index.html",
+        "url": "https://espflight.com/fa/docs/getting-started/safety/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-014",
+      "order": 14,
+      "title": "What You Need",
+      "category": "Docs",
+      "en": {
+        "path": "docs/getting-started/requirements/index.html",
+        "url": "https://espflight.com/docs/getting-started/requirements/"
+      },
+      "fa": {
+        "path": "fa/docs/getting-started/requirements/index.html",
+        "url": "https://espflight.com/fa/docs/getting-started/requirements/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-015",
+      "order": 15,
+      "title": "Downloads & Versions",
+      "category": "Docs",
+      "en": {
+        "path": "docs/getting-started/downloads/index.html",
+        "url": "https://espflight.com/docs/getting-started/downloads/"
+      },
+      "fa": {
+        "path": "fa/docs/getting-started/downloads/index.html",
+        "url": "https://espflight.com/fa/docs/getting-started/downloads/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-016",
+      "order": 16,
+      "title": "Quick Start",
+      "category": "Docs",
+      "en": {
+        "path": "docs/getting-started/quick-start/index.html",
+        "url": "https://espflight.com/docs/getting-started/quick-start/"
+      },
+      "fa": {
+        "path": "fa/docs/getting-started/quick-start/index.html",
+        "url": "https://espflight.com/fa/docs/getting-started/quick-start/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-017",
+      "order": 17,
+      "title": "Next Steps",
+      "category": "Docs",
+      "en": {
+        "path": "docs/getting-started/next-steps/index.html",
+        "url": "https://espflight.com/docs/getting-started/next-steps/"
+      },
+      "fa": {
+        "path": "fa/docs/getting-started/next-steps/index.html",
+        "url": "https://espflight.com/fa/docs/getting-started/next-steps/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-018",
+      "order": 18,
+      "title": "Build Overview",
+      "category": "Docs",
+      "en": {
+        "path": "docs/build/index.html",
+        "url": "https://espflight.com/docs/build/"
+      },
+      "fa": {
+        "path": "fa/docs/build/index.html",
+        "url": "https://espflight.com/fa/docs/build/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-019",
+      "order": 19,
+      "title": "Components",
+      "category": "Docs",
+      "en": {
+        "path": "docs/build/components/index.html",
+        "url": "https://espflight.com/docs/build/components/"
+      },
+      "fa": {
+        "path": "fa/docs/build/components/index.html",
+        "url": "https://espflight.com/fa/docs/build/components/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-020",
+      "order": 20,
+      "title": "Airframe & Power Selection",
+      "category": "Docs",
+      "en": {
+        "path": "docs/build/airframe-power/index.html",
+        "url": "https://espflight.com/docs/build/airframe-power/"
+      },
+      "fa": {
+        "path": "fa/docs/build/airframe-power/index.html",
+        "url": "https://espflight.com/fa/docs/build/airframe-power/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-021",
+      "order": 21,
+      "title": "Assembly",
+      "category": "Docs",
+      "en": {
+        "path": "docs/build/assembly/index.html",
+        "url": "https://espflight.com/docs/build/assembly/"
+      },
+      "fa": {
+        "path": "fa/docs/build/assembly/index.html",
+        "url": "https://espflight.com/fa/docs/build/assembly/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-022",
+      "order": 22,
+      "title": "Wiring & Orientation",
+      "category": "Docs",
+      "en": {
+        "path": "docs/build/wiring/index.html",
+        "url": "https://espflight.com/docs/build/wiring/"
+      },
+      "fa": {
+        "path": "fa/docs/build/wiring/index.html",
+        "url": "https://espflight.com/fa/docs/build/wiring/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-023",
+      "order": 23,
+      "title": "Motors & Propellers",
+      "category": "Docs",
+      "en": {
+        "path": "docs/build/motors-propellers/index.html",
+        "url": "https://espflight.com/docs/build/motors-propellers/"
+      },
+      "fa": {
+        "path": "fa/docs/build/motors-propellers/index.html",
+        "url": "https://espflight.com/fa/docs/build/motors-propellers/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-024",
+      "order": 24,
+      "title": "Hardware Verification",
+      "category": "Docs",
+      "en": {
+        "path": "docs/build/hardware-check/index.html",
+        "url": "https://espflight.com/docs/build/hardware-check/"
+      },
+      "fa": {
+        "path": "fa/docs/build/hardware-check/index.html",
+        "url": "https://espflight.com/fa/docs/build/hardware-check/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-025",
+      "order": 25,
+      "title": "Firmware Overview",
+      "category": "Docs",
+      "en": {
+        "path": "docs/firmware/index.html",
+        "url": "https://espflight.com/docs/firmware/"
+      },
+      "fa": {
+        "path": "fa/docs/firmware/index.html",
+        "url": "https://espflight.com/fa/docs/firmware/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-026",
+      "order": 26,
+      "title": "Download & Flash",
+      "category": "Docs",
+      "en": {
+        "path": "docs/firmware/flash/index.html",
+        "url": "https://espflight.com/docs/firmware/flash/"
+      },
+      "fa": {
+        "path": "fa/docs/firmware/flash/index.html",
+        "url": "https://espflight.com/fa/docs/firmware/flash/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-027",
+      "order": 27,
+      "title": "Configuration",
+      "category": "Docs",
+      "en": {
+        "path": "docs/firmware/configuration/index.html",
+        "url": "https://espflight.com/docs/firmware/configuration/"
+      },
+      "fa": {
+        "path": "fa/docs/firmware/configuration/index.html",
+        "url": "https://espflight.com/fa/docs/firmware/configuration/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-028",
+      "order": 28,
+      "title": "Safety & Failsafe",
+      "category": "Docs",
+      "en": {
+        "path": "docs/firmware/safety/index.html",
+        "url": "https://espflight.com/docs/firmware/safety/"
+      },
+      "fa": {
+        "path": "fa/docs/firmware/safety/index.html",
+        "url": "https://espflight.com/fa/docs/firmware/safety/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-029",
+      "order": 29,
+      "title": "Firmware Reference",
+      "category": "Docs",
+      "en": {
+        "path": "docs/firmware/reference/index.html",
+        "url": "https://espflight.com/docs/firmware/reference/"
+      },
+      "fa": {
+        "path": "fa/docs/firmware/reference/index.html",
+        "url": "https://espflight.com/fa/docs/firmware/reference/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-030",
+      "order": 30,
+      "title": "App Overview",
+      "category": "Docs",
+      "en": {
+        "path": "docs/app/index.html",
+        "url": "https://espflight.com/docs/app/"
+      },
+      "fa": {
+        "path": "fa/docs/app/index.html",
+        "url": "https://espflight.com/fa/docs/app/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-031",
+      "order": 31,
+      "title": "Install the App",
+      "category": "Docs",
+      "en": {
+        "path": "docs/app/install/index.html",
+        "url": "https://espflight.com/docs/app/install/"
+      },
+      "fa": {
+        "path": "fa/docs/app/install/index.html",
+        "url": "https://espflight.com/fa/docs/app/install/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-032",
+      "order": 32,
+      "title": "Connect to Drone",
+      "category": "Docs",
+      "en": {
+        "path": "docs/app/connect/index.html",
+        "url": "https://espflight.com/docs/app/connect/"
+      },
+      "fa": {
+        "path": "fa/docs/app/connect/index.html",
+        "url": "https://espflight.com/fa/docs/app/connect/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-033",
+      "order": 33,
+      "title": "Controls",
+      "category": "Docs",
+      "en": {
+        "path": "docs/app/controls/index.html",
+        "url": "https://espflight.com/docs/app/controls/"
+      },
+      "fa": {
+        "path": "fa/docs/app/controls/index.html",
+        "url": "https://espflight.com/fa/docs/app/controls/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-034",
+      "order": 34,
+      "title": "Telemetry",
+      "category": "Docs",
+      "en": {
+        "path": "docs/app/telemetry/index.html",
+        "url": "https://espflight.com/docs/app/telemetry/"
+      },
+      "fa": {
+        "path": "fa/docs/app/telemetry/index.html",
+        "url": "https://espflight.com/fa/docs/app/telemetry/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-035",
+      "order": 35,
+      "title": "Configuration",
+      "category": "Docs",
+      "en": {
+        "path": "docs/app/configuration/index.html",
+        "url": "https://espflight.com/docs/app/configuration/"
+      },
+      "fa": {
+        "path": "fa/docs/app/configuration/index.html",
+        "url": "https://espflight.com/fa/docs/app/configuration/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-036",
+      "order": 36,
+      "title": "PID Tuning",
+      "category": "Docs",
+      "en": {
+        "path": "docs/app/pid-tuning/index.html",
+        "url": "https://espflight.com/docs/app/pid-tuning/"
+      },
+      "fa": {
+        "path": "fa/docs/app/pid-tuning/index.html",
+        "url": "https://espflight.com/fa/docs/app/pid-tuning/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-037",
+      "order": 37,
+      "title": "Before You Fly",
+      "category": "Docs",
+      "en": {
+        "path": "docs/flight/index.html",
+        "url": "https://espflight.com/docs/flight/"
+      },
+      "fa": {
+        "path": "fa/docs/flight/index.html",
+        "url": "https://espflight.com/fa/docs/flight/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-038",
+      "order": 38,
+      "title": "Bench Test",
+      "category": "Docs",
+      "en": {
+        "path": "docs/flight/bench-test/index.html",
+        "url": "https://espflight.com/docs/flight/bench-test/"
+      },
+      "fa": {
+        "path": "fa/docs/flight/bench-test/index.html",
+        "url": "https://espflight.com/fa/docs/flight/bench-test/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-039",
+      "order": 39,
+      "title": "Preflight Check",
+      "category": "Docs",
+      "en": {
+        "path": "docs/flight/preflight/index.html",
+        "url": "https://espflight.com/docs/flight/preflight/"
+      },
+      "fa": {
+        "path": "fa/docs/flight/preflight/index.html",
+        "url": "https://espflight.com/fa/docs/flight/preflight/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-040",
+      "order": 40,
+      "title": "First Flight",
+      "category": "Docs",
+      "en": {
+        "path": "docs/flight/first-flight/index.html",
+        "url": "https://espflight.com/docs/flight/first-flight/"
+      },
+      "fa": {
+        "path": "fa/docs/flight/first-flight/index.html",
+        "url": "https://espflight.com/fa/docs/flight/first-flight/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-041",
+      "order": 41,
+      "title": "Flight Modes",
+      "category": "Docs",
+      "en": {
+        "path": "docs/flight/modes/index.html",
+        "url": "https://espflight.com/docs/flight/modes/"
+      },
+      "fa": {
+        "path": "fa/docs/flight/modes/index.html",
+        "url": "https://espflight.com/fa/docs/flight/modes/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-042",
+      "order": 42,
+      "title": "Basic Tuning",
+      "category": "Docs",
+      "en": {
+        "path": "docs/flight/basic-tuning/index.html",
+        "url": "https://espflight.com/docs/flight/basic-tuning/"
+      },
+      "fa": {
+        "path": "fa/docs/flight/basic-tuning/index.html",
+        "url": "https://espflight.com/fa/docs/flight/basic-tuning/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-043",
+      "order": 43,
+      "title": "Overview",
+      "category": "Docs",
+      "en": {
+        "path": "docs/hardware/index.html",
+        "url": "https://espflight.com/docs/hardware/"
+      },
+      "fa": {
+        "path": "fa/docs/hardware/index.html",
+        "url": "https://espflight.com/fa/docs/hardware/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-044",
+      "order": 44,
+      "title": "Board Reference",
+      "category": "Docs",
+      "en": {
+        "path": "docs/hardware/board/index.html",
+        "url": "https://espflight.com/docs/hardware/board/"
+      },
+      "fa": {
+        "path": "fa/docs/hardware/board/index.html",
+        "url": "https://espflight.com/fa/docs/hardware/board/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-045",
+      "order": 45,
+      "title": "Pinout",
+      "category": "Docs",
+      "en": {
+        "path": "docs/hardware/pinout/index.html",
+        "url": "https://espflight.com/docs/hardware/pinout/"
+      },
+      "fa": {
+        "path": "fa/docs/hardware/pinout/index.html",
+        "url": "https://espflight.com/fa/docs/hardware/pinout/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-046",
+      "order": 46,
+      "title": "Power System",
+      "category": "Docs",
+      "en": {
+        "path": "docs/hardware/power/index.html",
+        "url": "https://espflight.com/docs/hardware/power/"
+      },
+      "fa": {
+        "path": "fa/docs/hardware/power/index.html",
+        "url": "https://espflight.com/fa/docs/hardware/power/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-047",
+      "order": 47,
+      "title": "Sensors",
+      "category": "Docs",
+      "en": {
+        "path": "docs/hardware/sensors/index.html",
+        "url": "https://espflight.com/docs/hardware/sensors/"
+      },
+      "fa": {
+        "path": "fa/docs/hardware/sensors/index.html",
+        "url": "https://espflight.com/fa/docs/hardware/sensors/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-048",
+      "order": 48,
+      "title": "Motor Outputs",
+      "category": "Docs",
+      "en": {
+        "path": "docs/hardware/motor-outputs/index.html",
+        "url": "https://espflight.com/docs/hardware/motor-outputs/"
+      },
+      "fa": {
+        "path": "fa/docs/hardware/motor-outputs/index.html",
+        "url": "https://espflight.com/fa/docs/hardware/motor-outputs/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-049",
+      "order": 49,
+      "title": "Schematic & PCB",
+      "category": "Docs",
+      "en": {
+        "path": "docs/hardware/design-files/index.html",
+        "url": "https://espflight.com/docs/hardware/design-files/"
+      },
+      "fa": {
+        "path": "fa/docs/hardware/design-files/index.html",
+        "url": "https://espflight.com/fa/docs/hardware/design-files/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-050",
+      "order": 50,
+      "title": "BOM",
+      "category": "Docs",
+      "en": {
+        "path": "docs/hardware/bom/index.html",
+        "url": "https://espflight.com/docs/hardware/bom/"
+      },
+      "fa": {
+        "path": "fa/docs/hardware/bom/index.html",
+        "url": "https://espflight.com/fa/docs/hardware/bom/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-051",
+      "order": 51,
+      "title": "How ESPFlight Works",
+      "category": "Docs",
+      "en": {
+        "path": "docs/concepts/index.html",
+        "url": "https://espflight.com/docs/concepts/"
+      },
+      "fa": {
+        "path": "fa/docs/concepts/index.html",
+        "url": "https://espflight.com/fa/docs/concepts/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-052",
+      "order": 52,
+      "title": "System Architecture",
+      "category": "Docs",
+      "en": {
+        "path": "docs/concepts/architecture/index.html",
+        "url": "https://espflight.com/docs/concepts/architecture/"
+      },
+      "fa": {
+        "path": "fa/docs/concepts/architecture/index.html",
+        "url": "https://espflight.com/fa/docs/concepts/architecture/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-053",
+      "order": 53,
+      "title": "Stabilization & Control Loop",
+      "category": "Docs",
+      "en": {
+        "path": "docs/concepts/stabilization/index.html",
+        "url": "https://espflight.com/docs/concepts/stabilization/"
+      },
+      "fa": {
+        "path": "fa/docs/concepts/stabilization/index.html",
+        "url": "https://espflight.com/fa/docs/concepts/stabilization/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-054",
+      "order": 54,
+      "title": "Networking",
+      "category": "Docs",
+      "en": {
+        "path": "docs/concepts/networking/index.html",
+        "url": "https://espflight.com/docs/concepts/networking/"
+      },
+      "fa": {
+        "path": "fa/docs/concepts/networking/index.html",
+        "url": "https://espflight.com/fa/docs/concepts/networking/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-055",
+      "order": 55,
+      "title": "Safety Model",
+      "category": "Docs",
+      "en": {
+        "path": "docs/concepts/safety-model/index.html",
+        "url": "https://espflight.com/docs/concepts/safety-model/"
+      },
+      "fa": {
+        "path": "fa/docs/concepts/safety-model/index.html",
+        "url": "https://espflight.com/fa/docs/concepts/safety-model/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-056",
+      "order": 56,
+      "title": "PID Basics",
+      "category": "Docs",
+      "en": {
+        "path": "docs/concepts/pid/index.html",
+        "url": "https://espflight.com/docs/concepts/pid/"
+      },
+      "fa": {
+        "path": "fa/docs/concepts/pid/index.html",
+        "url": "https://espflight.com/fa/docs/concepts/pid/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-057",
+      "order": 57,
+      "title": "Developer Overview",
+      "category": "Docs",
+      "en": {
+        "path": "docs/developer/index.html",
+        "url": "https://espflight.com/docs/developer/"
+      },
+      "fa": {
+        "path": "fa/docs/developer/index.html",
+        "url": "https://espflight.com/fa/docs/developer/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-058",
+      "order": 58,
+      "title": "Build From Source",
+      "category": "Docs",
+      "en": {
+        "path": "docs/developer/build-from-source/index.html",
+        "url": "https://espflight.com/docs/developer/build-from-source/"
+      },
+      "fa": {
+        "path": "fa/docs/developer/build-from-source/index.html",
+        "url": "https://espflight.com/fa/docs/developer/build-from-source/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-059",
+      "order": 59,
+      "title": "Repository Structure",
+      "category": "Docs",
+      "en": {
+        "path": "docs/developer/repository-structure/index.html",
+        "url": "https://espflight.com/docs/developer/repository-structure/"
+      },
+      "fa": {
+        "path": "fa/docs/developer/repository-structure/index.html",
+        "url": "https://espflight.com/fa/docs/developer/repository-structure/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-060",
+      "order": 60,
+      "title": "Protocol 2",
+      "category": "Docs",
+      "en": {
+        "path": "docs/developer/protocol/index.html",
+        "url": "https://espflight.com/docs/developer/protocol/"
+      },
+      "fa": {
+        "path": "fa/docs/developer/protocol/index.html",
+        "url": "https://espflight.com/fa/docs/developer/protocol/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-061",
+      "order": 61,
+      "title": "Telemetry Protocol",
+      "category": "Docs",
+      "en": {
+        "path": "docs/developer/telemetry/index.html",
+        "url": "https://espflight.com/docs/developer/telemetry/"
+      },
+      "fa": {
+        "path": "fa/docs/developer/telemetry/index.html",
+        "url": "https://espflight.com/fa/docs/developer/telemetry/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-062",
+      "order": 62,
+      "title": "Configuration Protocol",
+      "category": "Docs",
+      "en": {
+        "path": "docs/developer/configuration/index.html",
+        "url": "https://espflight.com/docs/developer/configuration/"
+      },
+      "fa": {
+        "path": "fa/docs/developer/configuration/index.html",
+        "url": "https://espflight.com/fa/docs/developer/configuration/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-063",
+      "order": 63,
+      "title": "Controller Ownership",
+      "category": "Docs",
+      "en": {
+        "path": "docs/developer/controller-ownership/index.html",
+        "url": "https://espflight.com/docs/developer/controller-ownership/"
+      },
+      "fa": {
+        "path": "fa/docs/developer/controller-ownership/index.html",
+        "url": "https://espflight.com/fa/docs/developer/controller-ownership/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-064",
+      "order": 64,
+      "title": "Compatibility",
+      "category": "Docs",
+      "en": {
+        "path": "docs/developer/compatibility/index.html",
+        "url": "https://espflight.com/docs/developer/compatibility/"
+      },
+      "fa": {
+        "path": "fa/docs/developer/compatibility/index.html",
+        "url": "https://espflight.com/fa/docs/developer/compatibility/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-065",
+      "order": 65,
+      "title": "Contributing",
+      "category": "Docs",
+      "en": {
+        "path": "docs/developer/contributing/index.html",
+        "url": "https://espflight.com/docs/developer/contributing/"
+      },
+      "fa": {
+        "path": "fa/docs/developer/contributing/index.html",
+        "url": "https://espflight.com/fa/docs/developer/contributing/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-066",
+      "order": 66,
+      "title": "Troubleshooting",
+      "category": "Docs",
+      "en": {
+        "path": "docs/help/troubleshooting/index.html",
+        "url": "https://espflight.com/docs/help/troubleshooting/"
+      },
+      "fa": {
+        "path": "fa/docs/help/troubleshooting/index.html",
+        "url": "https://espflight.com/fa/docs/help/troubleshooting/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-067",
+      "order": 67,
+      "title": "Connection Problems",
+      "category": "Docs",
+      "en": {
+        "path": "docs/help/connection/index.html",
+        "url": "https://espflight.com/docs/help/connection/"
+      },
+      "fa": {
+        "path": "fa/docs/help/connection/index.html",
+        "url": "https://espflight.com/fa/docs/help/connection/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-068",
+      "order": 68,
+      "title": "Hardware Problems",
+      "category": "Docs",
+      "en": {
+        "path": "docs/help/hardware/index.html",
+        "url": "https://espflight.com/docs/help/hardware/"
+      },
+      "fa": {
+        "path": "fa/docs/help/hardware/index.html",
+        "url": "https://espflight.com/fa/docs/help/hardware/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-069",
+      "order": 69,
+      "title": "Flight Problems",
+      "category": "Docs",
+      "en": {
+        "path": "docs/help/flight/index.html",
+        "url": "https://espflight.com/docs/help/flight/"
+      },
+      "fa": {
+        "path": "fa/docs/help/flight/index.html",
+        "url": "https://espflight.com/fa/docs/help/flight/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-070",
+      "order": 70,
+      "title": "FAQ",
+      "category": "Docs",
+      "en": {
+        "path": "docs/help/faq/index.html",
+        "url": "https://espflight.com/docs/help/faq/"
+      },
+      "fa": {
+        "path": "fa/docs/help/faq/index.html",
+        "url": "https://espflight.com/fa/docs/help/faq/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-071",
+      "order": 71,
+      "title": "Glossary",
+      "category": "Docs",
+      "en": {
+        "path": "docs/help/glossary/index.html",
+        "url": "https://espflight.com/docs/help/glossary/"
+      },
+      "fa": {
+        "path": "fa/docs/help/glossary/index.html",
+        "url": "https://espflight.com/fa/docs/help/glossary/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-072",
+      "order": 72,
+      "title": "About",
+      "category": "Main navigation",
+      "en": {
+        "path": "about/index.html",
+        "url": "https://espflight.com/about/"
+      },
+      "fa": {
+        "path": "fa/about/index.html",
+        "url": "https://espflight.com/fa/about/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-073",
+      "order": 73,
+      "title": "Using the ESPFlight name and logo",
+      "category": "Other / Footer",
+      "en": {
+        "path": "brand-policy/index.html",
+        "url": "https://espflight.com/brand-policy/"
+      },
+      "fa": {
+        "path": "fa/brand-policy/index.html",
+        "url": "https://espflight.com/fa/brand-policy/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-074",
+      "order": 74,
+      "title": "Contact ESPFlight",
+      "category": "Other / Footer",
+      "en": {
+        "path": "contact/index.html",
+        "url": "https://espflight.com/contact/"
+      },
+      "fa": {
+        "path": "fa/contact/index.html",
+        "url": "https://espflight.com/fa/contact/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-075",
+      "order": 75,
+      "title": "Which license applies?",
+      "category": "Other / Footer",
+      "en": {
+        "path": "legal/index.html",
+        "url": "https://espflight.com/legal/"
+      },
+      "fa": {
+        "path": "fa/legal/index.html",
+        "url": "https://espflight.com/fa/legal/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-076",
+      "order": 76,
+      "title": "Firmware license",
+      "category": "Other / Footer",
+      "en": {
+        "path": "licenses/firmware/index.html",
+        "url": "https://espflight.com/licenses/firmware/"
+      },
+      "fa": {
+        "path": "fa/licenses/firmware/index.html",
+        "url": "https://espflight.com/fa/licenses/firmware/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-077",
+      "order": 77,
+      "title": "Hardware license",
+      "category": "Other / Footer",
+      "en": {
+        "path": "licenses/hardware/index.html",
+        "url": "https://espflight.com/licenses/hardware/"
+      },
+      "fa": {
+        "path": "fa/licenses/hardware/index.html",
+        "url": "https://espflight.com/fa/licenses/hardware/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-078",
+      "order": 78,
+      "title": "The Partner Program",
+      "category": "Other / Footer",
+      "en": {
+        "path": "partners/index.html",
+        "url": "https://espflight.com/partners/"
+      },
+      "fa": {
+        "path": "fa/partners/index.html",
+        "url": "https://espflight.com/fa/partners/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-079",
+      "order": 79,
+      "title": "Privacy and account data",
+      "category": "Other / Footer",
+      "en": {
+        "path": "privacy/index.html",
+        "url": "https://espflight.com/privacy/"
+      },
+      "fa": {
+        "path": "fa/privacy/index.html",
+        "url": "https://espflight.com/fa/privacy/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-080",
+      "order": 80,
+      "title": "Support the project",
+      "category": "Other / Footer",
+      "en": {
+        "path": "support/index.html",
+        "url": "https://espflight.com/support/"
+      },
+      "fa": {
+        "path": "fa/support/index.html",
+        "url": "https://espflight.com/fa/support/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-081",
+      "order": 81,
+      "title": "Terms of use",
+      "category": "Other / Footer",
+      "en": {
+        "path": "terms/index.html",
+        "url": "https://espflight.com/terms/"
+      },
+      "fa": {
+        "path": "fa/terms/index.html",
+        "url": "https://espflight.com/fa/terms/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    },
+    {
+      "id": "page-082",
+      "order": 82,
+      "title": "404 — Not Found",
+      "category": "Other / Footer",
+      "en": {
+        "path": "404.html",
+        "url": "https://espflight.com/404.html"
+      },
+      "fa": {
+        "path": "fa/404/index.html",
+        "url": "https://espflight.com/fa/404/"
+      },
+      "status": "pending",
+      "source_sha256": null,
+      "test_results": null
+    }
+  ]
+}
