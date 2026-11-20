@@ -1,9 +1,11 @@
-# ESPFlight website audit — fresh cycle
+# ESPFlight — Website Audit Changelog
 
-## 2026-11-20 — initialization (zero progress)
-- Owner explicitly requested a new full audit from the beginning, starting with the Homepage.
-- Created a clean GitHub audit branch from `main`, independent of previous trackers.
-- Initialized the progress registry with **zero pages audited**, **zero pages deployed**, and **no inherited resolved issues**.
-- The old uploaded baseline is a named reference only; current source must be obtained and verified before making changes.
-- No HTML/CSS/JS/PHP/API/firmware/app source edits or website tests performed in this initialization.
-- Next: inventory actual source and audit Homepage English/Persian from scratch.
+## 2026-11-20 — Initialize fresh audit
+- Initialized a new audit cycle with **zero pages reviewed**, **zero tests accepted**, **zero pages deployed**, and an empty issue register.
+- Homepage (English and Persian) is the first pending page.
+- Current-source inventory and initial audit have not run yet.
+- No live website or application code changed.
+
+## 2026-11-20 — Cleanup
+- Removed legacy report references from the active registry and overview.
+- The current cycle remains at **zero**; no old results or approvals were imported.
