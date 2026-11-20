@@ -1,21 +1,17 @@
-# ESPFlight — New Audit Handoff
+# ESPFlight — Fresh Website Audit Handoff
 
-**2026-11-20: User explicitly reset website QA from the first page.** Do not reuse previous Docs audit completion states. This tracker branch supersedes old draft tracker; historical data is archival.
+**User-requested restart:** 20 November 2026. Baseline is uploaded `public_html_11202026.zip`: 82 English + 82 Persian files.
 
-## Source
-- User upload: `public_html_11202026.zip`, SHA-256 `e84eb0e1e0a9a71bb7504451b43de479283f5551fc9b43c24f0e3de7c2e747b1`.
-- 82 bilingual page pairs, 164 HTML, 50 CSS. Full ordered inventory in `progress.json`.
-- The live hosting deployment has **not** been matched to source.
+## CRITICAL — owner correction of slogans
+- English homepage hero: **Learn. Build. Fly.** (lang=en, dir=ltr).
+- Persian homepage hero: **یاد بگیر. بساز. پرواز کن.** (lang=fa, dir=rtl).
+- Do not translate/replace Persian homepage slogan with English. Earlier false-positive “branding fix” was withdrawn and source restored byte-for-byte to upload.
+- All Homepage HTML now matches the baseline. No Homepage deployment required unless a mistaken previous ZIP was already installed.
 
-## Just completed
-- Homepage EN and FA reviewed.
-- Only `fa/index.html` revised: H1 set to official exact slogan `Learn. Build. Fly.`.
-- Responsive and functional offline tests passed; see `HOMEPAGE_AUDIT_20261120.md`.
-- Deployment and rollback ZIPs delivered separately to the project owner.
-- Homepage = `ready_for_deploy`, not live-verified.
+## Progress
+- Page 001 Homepage: locally audited, original copy preserved, static tests passed after restoration. NOT verified on production.
+- Page 002 **Platform** is next: `platform/index.html` + `fa/platform/index.html`.
+- Full ordered inventory and current statuses are in `progress.json`; do not reuse the prior Docs cycle.
 
-## Continue next
-- **Page 002 Platform**, `platform/index.html` and `fa/platform/index.html`.
-- Inspect and fix both languages, both themes, desktop/mobile, technical content, links, semantics, SEO, accessibility, performance and regressions.
-- No modifications to API/admin/mobile app or flight logic without verified need.
-- Refresh this entire audit registry and changelog after completion.
+## Process
+Audit actual source, implement minimal fixes with user-approved localization, test and register evidence. Preserve global Design System and healthy API/admin/app/flight logic. Update progress/issues/changelog/handoff after each page.
