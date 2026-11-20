@@ -4,7 +4,10 @@
   "audit_reset": "2026-11-20",
   "previous_work": "archived historical; all reset to pending except fresh Homepage audit",
   "brand": "ESPFlight",
-  "slogan": "Learn. Build. Fly.",
+  "slogan": {
+    "en": "Learn. Build. Fly.",
+    "fa": "یاد بگیر. بساز. پرواز کن."
+  },
   "source": {
     "archive": "public_html_11202026.zip",
     "sha256": "e84eb0e1e0a9a71bb7504451b43de479283f5551fc9b43c24f0e3de7c2e747b1",
