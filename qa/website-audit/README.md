@@ -1,35 +1,36 @@
-# ESPFlight — Website Audit
+# ESPFlight — Website Audit (Current Cycle)
 
-**Active cycle:** `website-zero-start-20261120` (initialized 2026-11-20).
+**Cycle:** `website-zero-start-20261120` — authoritative branch `audit/website-zero-start-20261120`.
 
-## Progress
-
-| Status | Count |
+## Honest progress
+| Category | Count |
 | --- | ---: |
-| Confirmed bilingual page pairs | 82 |
-| Locally audited / ready | **1** |
+| Verified bilingual page pairs | 82 |
+| Page under final review | **1 — Homepage** |
+| Ready for deploy | **0** |
+| Verified on production | **0** |
 | Pending | **81** |
-| Deployed and production-verified | **0** |
-| Blocked / stale | **0** |
 
-Source: `public_html_11202026.zip` (SHA-256 `e84eb0e1e0a9a71bb7504451b43de479283f5551fc9b43c24f0e3de7c2e747b1`). Source inventory derived from the current uploaded archive.
+### Page 001 — Homepage
+The deeper audit now contains **real source changes**, rather than a no-change technical report. See [Homepage deep review](HOMEPAGE_DEEP_REVIEW_20261120.md).
 
-**Page 001:** [Homepage EN/FA audit](HOMEPAGE_AUDIT_20261120.md) — reviewed locally with no source edits; the approved slogans remain intact.
+- 4 hero quick links per language made functional.
+- EN/FA copy, metadata and descriptions improved.
+- Technical telemetry terminology corrected.
+- Styles remain green, flat/shadowless and bilingual.
+- Original Persian slogan **یاد بگیر. بساز. پرواز کن.** and English slogan **Learn. Build. Fly.** are preserved.
+- Targeted test suite **76/76 PASS**, site-integrity and release preflight PASS.
 
-**Next:** Page 002 Platform, `platform/index.html` and `fa/platform/index.html`.
+**Current status: `in_progress` pending owner's final visual/content acceptance.** Local test success is not owner acceptance and not live deployment.
 
-## Tracking
+### Tracking
+- `progress.json` — page inventory / statuses / modified file hashes.
+- `issues.json` — fixes and outstanding owner/production gates.
+- `changelog.md` — actual actions and tests.
+- `SESSION_HANDOFF.md` — next-chat recovery.
+- `HOMEPAGE_DEEP_REVIEW_20261120.md` — current authoritative page-001 report.
+- `HOMEPAGE_AUDIT_20261120.md` — superseded baseline note, not an approval.
 
-- `progress.json`: source-derived ordered inventory and current page statuses.
-- `issues.json`: only newly verified issues in this cycle (currently empty).
-- `changelog.md`: actual work, tests, and limitations.
-- `SESSION_HANDOFF.md`: exact continuation instructions.
-- `HOMEPAGE_AUDIT_20261120.md`: page 001 audit evidence.
+**Next:** Complete Homepage final review. Only then audit Page 002 Platform.
 
-## Owner-approved slogans
-- EN: **Learn. Build. Fly.**
-- FA: **یاد بگیر. بساز. پرواز کن.**
-
-**New chats:** read the current `progress.json` and handoff, continue from Platform (or latest pending page), and never automatically reset the cycle.
-
-This branch only tracks QA metadata. No production site files or API/admin/app/firmware were altered here.
+No API/admin/app/firmware/flight logic was modified through this audit.
