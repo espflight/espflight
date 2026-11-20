@@ -1,5 +1,54 @@
 {
   "cycle_id": "website-zero-start-20261120",
-  "issues": [],
-  "note": "No issues carried over automatically. New verified issues will be recorded as they are discovered from latest actual source."
+  "issues": [
+    {
+      "id": "HOME-UX-001",
+      "severity": "medium",
+      "status": "fixed_locally_pending_review",
+      "summary": "Four visually prominent hero tiles had no interaction",
+      "fix": "Replaced 4 static spans per locale with accessible links and scoped hover/focus/touch styles",
+      "affected_files": [
+        "index.html",
+        "fa/index.html",
+        "assets/home-ux-v30-20261018.css"
+      ]
+    },
+    {
+      "id": "HOME-COPY-002",
+      "severity": "low",
+      "status": "fixed_locally_pending_review",
+      "summary": "Duplicated or generic introductory copy and ambiguous three-tool metaphor",
+      "fix": "Reworked homepage hero descriptions, three connected parts heading, and build-section description in both locales and synchronized metadata",
+      "affected_files": [
+        "index.html",
+        "fa/index.html"
+      ]
+    },
+    {
+      "id": "HOME-TECH-003",
+      "severity": "medium",
+      "status": "fixed_locally_pending_review",
+      "summary": "Battery status feature tile could imply pack voltage/state of charge measured by v1 firmware",
+      "fix": "Renamed to supply-voltage data / داده‌های ولتاژ تغذیه in EN/FA, consistent with official ESPFlight telemetry semantics",
+      "affected_files": [
+        "index.html",
+        "fa/index.html"
+      ]
+    },
+    {
+      "id": "HOME-REVIEW-004",
+      "severity": "medium",
+      "status": "awaiting_owner_final_review",
+      "summary": "Final visual/copy acceptance of revised Homepage not yet granted",
+      "evidence": "76/76 targeted checks passed, but owner-requested subjective final review remains outstanding",
+      "next_action": "Review provided local screenshots and deployment package; after acceptance mark ready_for_deploy."
+    },
+    {
+      "id": "HOME-LIVE-005",
+      "severity": "medium",
+      "status": "pending_production_check",
+      "summary": "Site hosting has not been checked against patch",
+      "next_action": "Back up live files, reconcile live version, deploy after approval, then test live responses and update status to deployed_verified."
+    }
+  ]
 }
