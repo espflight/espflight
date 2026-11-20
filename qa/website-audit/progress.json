@@ -3,7 +3,7 @@
   "cycle_id": "website-zero-start-20261120",
   "project": "ESPFlight Official Website",
   "initialized_at": "2026-11-20",
-  "project_state": "initialized_zero_progress",
+  "project_state": "active_sequential_audit",
   "audit_initialized": true,
   "instructions": "Zero-start cycle initialized on 2026-11-20. Read and resume the existing progress on every later run; never reinitialize automatically.",
   "source_baseline": {
@@ -1041,7 +1041,7 @@
     "tests_run": [],
     "source_change_files": []
   },
-  "next_step": "Page 002 Platform EN/FA; inspect actual source, correct only verified issues, validate and update GitHub.",
+  "next_step": "Inspect Platform EN/FA; source is verified and Page 001 audited locally; preserve localization and do not inherit old report conclusions.",
   "approved_brand": {
     "brand": "ESPFlight",
     "slogan_en": "Learn. Build. Fly.",
