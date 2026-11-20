@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "project": "ESPFlight website",
   "updated_at": "2026-11-20",
-  "registry_state": "RECOVERED_PROVISIONAL",
+  "registry_state": "RECOVERED_PROVISIONAL_WITH_INDEX_CONTENT_REVIEW",
   "status_policy": "Prior audit reports are evidence of earlier local work, not current source or production verification.",
   "official_brand": "ESPFlight",
   "official_slogan": "Learn. Build. Fly.",
@@ -14,7 +14,10 @@
       "ESPFlight_Platform_20261119_FULL_SOURCE_ARCHIVE.zip"
     ],
     "materialization": "Failed: no authorized raw-byte path",
-    "live_http_tested": false
+    "live_http_tested": false,
+    "public_indexed_text_observed": true,
+    "direct_live_http_available": false,
+    "latest_session_result": "Search-indexed EN content checked; no current source bytes and no deployment confirmation."
   },
   "inventory": {
     "source_report_en_pages": 82,
@@ -300,7 +303,7 @@
       "source_hash": null,
       "status": "blocked",
       "blockers": [
-        "Source archive not readable in this session; reconcile historical report with actual source"
+        "Latest source and historical deploy ZIP bytes unavailable; full EN/FA source reconciliation and live deployment verification required"
       ],
       "historical_audit": {
         "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
@@ -308,9 +311,11 @@
         "production_verified": false
       },
       "current_session_tests": {
-        "source_diff": "not_tested",
+        "source_diff": "blocked_no_source_archive",
         "browser_render": "not_tested",
-        "production_http": "not_tested"
+        "production_http": "not_tested_direct",
+        "public_search_index_en": "reviewed_indexed_content_only",
+        "persian_content": "not_tested"
       }
     },
     {
@@ -325,7 +330,7 @@
       "source_hash": null,
       "status": "blocked",
       "blockers": [
-        "Source archive not readable in this session; reconcile historical report with actual source"
+        "Latest source and historical deploy ZIP bytes unavailable; full EN/FA source reconciliation and live deployment verification required"
       ],
       "historical_audit": {
         "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
@@ -333,9 +338,11 @@
         "production_verified": false
       },
       "current_session_tests": {
-        "source_diff": "not_tested",
+        "source_diff": "blocked_no_source_archive",
         "browser_render": "not_tested",
-        "production_http": "not_tested"
+        "production_http": "not_tested_direct",
+        "public_search_index_en": "reviewed_indexed_content_only",
+        "persian_content": "not_tested"
       }
     },
     {
@@ -350,7 +357,7 @@
       "source_hash": null,
       "status": "blocked",
       "blockers": [
-        "Source archive not readable in this session; reconcile historical report with actual source"
+        "Latest source and historical deploy ZIP bytes unavailable; full EN/FA source reconciliation and live deployment verification required"
       ],
       "historical_audit": {
         "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
@@ -358,9 +365,11 @@
         "production_verified": false
       },
       "current_session_tests": {
-        "source_diff": "not_tested",
+        "source_diff": "blocked_no_source_archive",
         "browser_render": "not_tested",
-        "production_http": "not_tested"
+        "production_http": "not_tested_direct",
+        "public_search_index_en": "reviewed_indexed_content_only",
+        "persian_content": "not_tested"
       }
     },
     {
@@ -375,7 +384,7 @@
       "source_hash": null,
       "status": "blocked",
       "blockers": [
-        "Source archive not readable in this session; reconcile historical report with actual source"
+        "Latest source and historical deploy ZIP bytes unavailable; full EN/FA source reconciliation and live deployment verification required"
       ],
       "historical_audit": {
         "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
@@ -383,9 +392,11 @@
         "production_verified": false
       },
       "current_session_tests": {
-        "source_diff": "not_tested",
+        "source_diff": "blocked_no_source_archive",
         "browser_render": "not_tested",
-        "production_http": "not_tested"
+        "production_http": "not_tested_direct",
+        "public_search_index_en": "reviewed_indexed_content_only",
+        "persian_content": "not_tested"
       }
     },
     {
@@ -400,7 +411,7 @@
       "source_hash": null,
       "status": "blocked",
       "blockers": [
-        "Source archive not readable in this session; reconcile historical report with actual source"
+        "Latest source and historical deploy ZIP bytes unavailable; full EN/FA source reconciliation and live deployment verification required"
       ],
       "historical_audit": {
         "report_file": "ESPFlight_Docs_Next_Five_Pages_20261120_AUDIT_REPORT.md",
@@ -408,9 +419,11 @@
         "production_verified": false
       },
       "current_session_tests": {
-        "source_diff": "not_tested",
+        "source_diff": "blocked_no_source_archive",
         "browser_render": "not_tested",
-        "production_http": "not_tested"
+        "production_http": "not_tested_direct",
+        "public_search_index_en": "reviewed_indexed_content_only",
+        "persian_content": "not_tested"
       }
     },
     {
@@ -424,12 +437,16 @@
       "fa_source_path": null,
       "source_hash": null,
       "status": "pending",
-      "blockers": [],
+      "blockers": [
+        "Do not implement before previous five-page verification gate; current source unavailable"
+      ],
       "historical_audit": null,
       "current_session_tests": {
         "source_diff": "not_tested",
         "browser_render": "not_tested",
-        "production_http": "not_tested"
+        "production_http": "not_tested",
+        "public_search_index_en": "preliminary_read_only",
+        "official_pinout": "verified_github_sha_06c865f7104d0238160f9faf50ff399a89528108"
       }
     },
     {
@@ -1757,5 +1774,6 @@
         "production_http": "not_tested"
       }
     }
-  ]
+  ],
+  "last_session_report": "qa/website-audit/FIVE_PAGE_FOLLOWUP_20261120.md"
 }
