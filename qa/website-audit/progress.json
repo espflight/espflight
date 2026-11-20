@@ -30,7 +30,7 @@
         "fa_path": "fa/index.html",
         "en_url": "https://espflight.com/",
         "fa_url": "https://espflight.com/fa/",
-        "status": "ready_for_deploy",
+        "status": "in_progress",
         "source_revision": {
           "en_sha256": "b475d138caba9ce014f1b2be3509df5a3f2002e1f1f4669057ebf373a9920344",
           "fa_sha256": "2a0d7b57efab5de90eab059f1b99f6ba4cf20b8f8060653392cefcd4b859aa4f"
@@ -42,8 +42,11 @@
           "site_integrity": "PASS",
           "release_preflight": "PASS",
           "production": "NOT TESTED",
-          "source_modifications": 0
-        }
+          "source_modifications": 0,
+          "prior_tests": "historical_for_this_cycle_do_not_treat_as_final_visual_acceptance",
+          "visual_final_acceptance": "pending"
+        },
+        "review_reason": "Owner rejected finalization based on technical checks alone; perform deeper visual/content/UX/source improvements before acceptance."
       },
       {
         "id": "page-002",
@@ -1021,27 +1024,27 @@
   },
   "counts": {
     "verified_inventory_pages": 82,
-    "audited_locally": 1,
-    "ready_for_deploy": 1,
+    "audited_locally": 0,
+    "ready_for_deploy": 0,
     "deployed_verified": 0,
-    "in_progress": 0,
+    "in_progress": 1,
     "blocked": 0,
     "stale": 0,
     "pending": 81
   },
   "current_page": {
-    "id": "page-002",
-    "order": 2,
-    "name": "Platform",
-    "source_en": "platform/index.html",
-    "source_fa": "fa/platform/index.html",
-    "url_en": "https://espflight.com/platform/",
-    "url_fa": "https://espflight.com/fa/platform/",
-    "status": "pending",
+    "id": "page-001",
+    "order": 1,
+    "name": "Homepage",
+    "source_en": "index.html",
+    "source_fa": "fa/index.html",
+    "url_en": "https://espflight.com/",
+    "url_fa": "https://espflight.com/fa/",
+    "status": "in_progress",
     "tests_run": [],
     "source_change_files": []
   },
-  "next_step": "Inspect Platform EN/FA; source is verified and Page 001 audited locally; preserve localization and do not inherit old report conclusions.",
+  "next_step": "Re-audit Homepage EN/FA for visual, content, UX and code quality; implement justified improvements, test, then resume Platform.",
   "approved_brand": {
     "brand": "ESPFlight",
     "slogan_en": "Learn. Build. Fly.",
@@ -1052,11 +1055,5 @@
   },
   "production_verification": "not_tested",
   "last_updated_at": "2026-11-20",
-  "last_completed_page": {
-    "id": "page-001",
-    "title": "Homepage",
-    "status": "ready_for_deploy",
-    "report": "qa/website-audit/HOMEPAGE_AUDIT_20261120.md",
-    "source_changes": []
-  }
+  "last_completed_page": null
 }
