@@ -5,19 +5,19 @@
   "initialized_at": "2026-11-20",
   "project_state": "initialized_zero_progress",
   "audit_initialized": true,
-  "instructions": "One-time initialization is complete. NEVER reset this branch or statuses on subsequent prompt submissions. Resume from this file.",
+  "instructions": "Zero-start cycle initialized on 2026-11-20. Read and resume the existing progress on every later run; never reinitialize automatically.",
   "source_baseline": {
     "name": "public_html_11202026.zip",
-    "sha256_from_previous_session": "e84eb0e1e0a9a71bb7504451b43de479283f5551fc9b43c24f0e3de7c2e747b1",
     "accessible_in_this_branch": false,
     "source_verified_for_cycle": false,
-    "do_not_claim_live_equals_archive": true
+    "do_not_claim_live_equals_archive": true,
+    "reference_sha256": "e84eb0e1e0a9a71bb7504451b43de479283f5551fc9b43c24f0e3de7c2e747b1"
   },
   "inventory": {
     "status": "pending_source_scan",
-    "expected_pairs_from_prior_cycle": 82,
     "actual_pairs_verified": null,
-    "pages": []
+    "pages": [],
+    "note": "Determine exact page count from current verified website source; no prior audit reports are inherited."
   },
   "counts": {
     "verified_inventory_pages": null,
@@ -41,7 +41,7 @@
     "tests_run": [],
     "source_change_files": []
   },
-  "next_step": "Recover/obtain latest complete website source; enumerate exact EN/FA page pairs in official menu order; begin full audit at Homepage (do not accept old audits as pass).",
+  "next_step": "Recover latest complete website source, inventory current EN/FA routes, begin audit from Homepage.",
   "approved_brand": {
     "brand": "ESPFlight",
     "slogan_en": "Learn. Build. Fly.",
@@ -50,7 +50,6 @@
     "fonts_fa": "IRANYekanX",
     "shadows": "none on boxes/cards/panels in all themes and states"
   },
-  "historical_reports": "Previous audit PRs #1 and #2 are archived/superseded, NOT valid completion evidence for this new cycle.",
   "production_verification": "not_tested",
   "last_updated_at": "2026-11-20"
 }
