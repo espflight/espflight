@@ -1,24 +1,25 @@
-# ESPFlight website — zero-start session handoff
+# ESPFlight — Website QA Handoff
 
-**Audit cycle:** `website-zero-start-20261120`
+**Cycle:** `website-zero-start-20261120`
+**Authoritative GitHub branch:** `audit/website-zero-start-20261120`
+**Tracker:** `qa/website-audit/progress.json`
 
-**Authoritative audit branch:** `audit/website-zero-start-20261120`
+## Status
+- **0 pages audited**, **0 deployed**, **0 production verified**.
+- **Next page: Homepage**, `index.html` and `fa/index.html`.
+- Current source and exact page inventory must be confirmed by inspecting the latest accessible complete `public_html` archive.
+- Initial archive candidate: `public_html_11202026.zip`.
 
-**Tracking directory:** `qa/website-audit/`
+## Brand localization
+- EN slogan: **Learn. Build. Fly.**
+- FA slogan: **یاد بگیر. بساز. پرواز کن.**
+- Preserve the original Persian copy.
 
-## Current state
-- Audit initialized; **0 pages completed**; no historic page completion inherited.
-- Homepage is the **first pending page**, not locally approved or production verified.
-- Source to recover: latest available `public_html` ZIP. Previously uploaded candidate `public_html_11202026.zip` (not guaranteed available in another chat).
-- First task: inspect actual current source, build canonical ordered EN/FA page inventory, then audit Homepage in both languages and both themes.
+## Next session
+1. Read the latest tracker from this branch.
+2. Recover and verify full website source.
+3. Inventory real EN/FA pages in official navigation order.
+4. Audit Homepage from scratch, fix only verified issues, run available tests.
+5. Update tracker, issues, changelog and handoff. Do not restart this cycle in another chat.
 
-## Critical localization
-- English official slogan: **Learn. Build. Fly.**
-- Persian approved slogan: **یاد بگیر. بساز. پرواز کن.**
-- Preserve Persian copy; do not replace it with the English tagline.
-
-## Future-session rule
-Always read `progress.json` first. If the cycle already exists, **resume**; never initialize or clear statuses again merely because the master prompt says “from zero.” Reset only upon new explicit owner instruction and create another isolated cycle.
-
-## Boundaries
-Do not alter live website, backend/API/admin, mobile application, firmware, or flight logic without cause, verified source and necessary tests. Save source-change archives and rollback packages separately from GitHub audit metadata.
+Do not modify working API, admin, app, firmware, flight logic or live site without a verified need and safe validation.
