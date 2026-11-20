@@ -22,8 +22,8 @@
       "severity": "medium",
       "status": "needs_verification",
       "title": "Cached Docs sidebar variations across build pages",
-      "evidence": "Older Assembly page omitted Airframe & Power Selection in sidebar while other retrieved versions include it",
-      "next_action": "Inspect current host and cache before claiming live defect"
+      "evidence": "Web-indexed Build Overview & Wiring pages include Airframe & Power Selection in Build sidebar; index snapshots of Components, Airframe & Assembly omit it; conflicting cached captures, no live HTTP verification.",
+      "next_action": "Inspect actual source for EN/FA Build sidebars and test consistent 7-item list across all pages."
     },
     {
       "id": "QA-004",
@@ -38,8 +38,8 @@
       "severity": "high",
       "status": "open",
       "title": "Application v1.0.0 release has no APK asset",
-      "evidence": "GitHub release REST response assets=[] on Nov 20 2026",
-      "next_action": "Avoid presenting unverified direct installer link as downloadable; reconcile site and upstream docs"
+      "evidence": "GitHub official Application v1.0.0 release API returns assets=[]; espflight/docs BUILD_V1.0.md still advertises direct release APK link; upstream mismatch confirmed on 2026-11-20.",
+      "next_action": "Confirm official distribution channel; correct dead direct APK reference in website and upstream docs only after validating the intended replacement."
     },
     {
       "id": "QA-006",
@@ -48,6 +48,15 @@
       "title": "Inventory differs from previous source audit count",
       "evidence": "Previous local report 82 EN and 82 FA pages; 81 site/doc navigation items recovered from cached navigation",
       "next_action": "Enumerate source/sitemap and deduplicate when full source is accessible"
+    },
+    {
+      "id": "QA-007",
+      "severity": "low",
+      "status": "needs_verification",
+      "title": "Indexed Build Overview branding differs from other Build pages",
+      "evidence": "Search-indexed Build Overview displays ESP Flight in header/footer; other indexed Build pages display ESPFlight. Live markup not verified.",
+      "next_action": "Check current EN/FA HTML for brand casing; use exact ESPFlight spelling if the inconsistency is real."
     }
-  ]
+  ],
+  "last_session_report": "qa/website-audit/FIVE_PAGE_FOLLOWUP_20261120.md"
 }
