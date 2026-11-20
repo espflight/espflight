@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-11-20",
+  "issues": [
+    {
+      "id": "QA-001",
+      "severity": "high",
+      "status": "blocked",
+      "title": "Latest website full source and historical deploy ZIP content inaccessible",
+      "evidence": "Archive metadata/reports exist but current tool rejected raw-byte materialization",
+      "next_action": "Obtain readable current public_html and reconcile file hashes"
+    },
+    {
+      "id": "QA-002",
+      "severity": "high",
+      "status": "open",
+      "title": "Five-page batch not verified on live production",
+      "evidence": "Historically reported 160/160 responsive and 40/40 interactions only in local setup",
+      "next_action": "Compare deployed files and run production checks"
+    },
+    {
+      "id": "QA-003",
+      "severity": "medium",
+      "status": "needs_verification",
+      "title": "Cached Docs sidebar variations across build pages",
+      "evidence": "Older Assembly page omitted Airframe & Power Selection in sidebar while other retrieved versions include it",
+      "next_action": "Inspect current host and cache before claiming live defect"
+    },
+    {
+      "id": "QA-004",
+      "severity": "medium",
+      "status": "planned",
+      "title": "Wiring & Orientation documentation needs complete board/GPIO labels and ESP8266 boot/UART cautions",
+      "evidence": "Cached page checked against official hardware PINOUT.md blob SHA 06c865f7104d0238160f9faf50ff399a89528108",
+      "next_action": "Update source EN/FA after obtaining readable HTML, preserve anchors and test"
+    },
+    {
+      "id": "QA-005",
+      "severity": "high",
+      "status": "open",
+      "title": "Application v1.0.0 release has no APK asset",
+      "evidence": "GitHub release REST response assets=[] on Nov 20 2026",
+      "next_action": "Avoid presenting unverified direct installer link as downloadable; reconcile site and upstream docs"
+    },
+    {
+      "id": "QA-006",
+      "severity": "medium",
+      "status": "open",
+      "title": "Inventory differs from previous source audit count",
+      "evidence": "Previous local report 82 EN and 82 FA pages; 81 site/doc navigation items recovered from cached navigation",
+      "next_action": "Enumerate source/sitemap and deduplicate when full source is accessible"
+    }
+  ]
+}
