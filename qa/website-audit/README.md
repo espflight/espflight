@@ -1,17 +1,23 @@
-# ESPFlight — Website Audit (Fresh Start)
+# ESPFlight — Website Audit
 
-**Current cycle:** `website-zero-start-20261120` — initialized from **zero** on November 20, 2026.
+**Cycle:** `website-zero-start-20261120`
+**Initialized:** 2026-11-20
+**Progress:** 0 pages audited / 0 pages deployed or verified.
 
-**Progress:** **0 pages audited / 0 verified deployed**. The actual page inventory will be populated only after scanning the latest verified website source. Prior work was deliberately **not** counted.
+**First page:** Homepage — `index.html` and `fa/index.html`.
+**Source:** Verify the current complete website source before the first audit. Initial source candidate: `public_html_11202026.zip`. Do not infer a page count from old reports.
 
-**First page:** Homepage — `index.html`, `fa/index.html`.
+## Permanent tracking
+- `progress.json` — authoritative project state and page ordering.
+- `issues.json` — verified new-cycle issues only.
+- `changelog.md` — audited actions and test evidence.
+- `SESSION_HANDOFF.md` — cross-session continuation.
 
-**Slogans:** English **Learn. Build. Fly.**; Persian **یاد بگیر. بساز. پرواز کن.**
+## Approved slogans
+- English: **Learn. Build. Fly.**
+- Persian: **یاد بگیر. بساز. پرواز کن.**
 
-**Files:** `progress.json` (authoritative machine-readable state), `issues.json` (new-cycle findings), `changelog.md` (actions, tests, commits), `SESSION_HANDOFF.md` (resume instructions).
+## Continuity
+On future chats, read `progress.json` from this audit branch first and **resume**, never reinitialize. Complete the first page in actual source order and commit the evidence. Keep production site code separate.
 
-**Read-only historical context:** old PRs #1 and #2, not evidence of completion for this cycle.
-
-**Important:** Re-sending the master prompt in a new chat must NOT reset this registry. At startup, read the current progress and continue the first incomplete page.
-
-**No website source was edited at registry initialization.**
+No production website files or services were modified by initializing the QA tracker.
