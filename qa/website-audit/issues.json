@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-20",
+  "cycle": "fresh_from_homepage",
+  "items": [
+    {
+      "id": "HOME-001",
+      "severity": "medium",
+      "status": "resolved_locally",
+      "page": "fa/index.html",
+      "finding": "Persian homepage H1 translated the permanent official ESPFlight slogan.",
+      "fix": "Use exact Learn. Build. Fly. with lang=en dir=ltr; surrounding localized description retained."
+    },
+    {
+      "id": "HOME-002",
+      "severity": "medium",
+      "status": "pending_production_validation",
+      "page": "/",
+      "finding": "Production version has not been compared with this uploaded source; local Chromium navigation was blocked so tests inlined real site CSS/JS/assets.",
+      "next_action": "Back up live fa/index.html, compare hashes, deploy patch, test live server, then move to deployed_verified."
+    }
+  ]
+}
