@@ -1,33 +1,39 @@
-# ESPFlight — Fresh Homepage Audit (20 November 2026)
+# ESPFlight — Homepage Audit & Correction
 
-## Scope
-- Source: uploaded `public_html_11202026.zip` (SHA-256 `e84eb0e1e0a9a71bb7504451b43de479283f5551fc9b43c24f0e3de7c2e747b1`).
-- Source inventory: 164 HTML (82 EN / 82 FA) and 50 CSS files.
-- Examined: `index.html` and `fa/index.html`; source integrity and static preflight re-run globally.
+**Review date:** 20 November 2026. Source: user-uploaded `public_html_11202026.zip`.
 
-## Correction made
-The Persian homepage hero H1 contained a translation of the official brand slogan. Only `fa/index.html` changed: H1 now says **Learn. Build. Fly.**, with `lang=en`, `dir=ltr`. English homepage and remaining Persian copy remain unchanged.
+## User-approved slogans (preserve both)
 
-Source SHA-256 of the changed file:
-- Before: `2a0d7b57efab5de90eab059f1b99f6ba4cf20b8f8060653392cefcd4b859aa4f`.
-- After: `42ca2a8de0e29bf1f143963192513162365adbf154b4d9b768546949ca833dd0`.
+| Language | Exact homepage slogan | Markup |
+| --- | --- | --- |
+| English | **Learn. Build. Fly.** | `lang="en" dir="ltr"` |
+| Persian | **یاد بگیر. بساز. پرواز کن.** | `lang="fa" dir="rtl"` |
 
-## Completed checks
-- PASS `python api/esp/tests/site_integrity.py`: 164 pages, 162 sitemap URLs, 22,384 local refs, 1,482 fragments.
-- PASS `python api/esp/tests/release_preflight_v57.py`: 164 pages, 50 CSS, 2,974 local asset refs.
-- PASS 32 inlined-asset Chromium responsive/layout checks: EN/FA x light/dark x widths 320, 360, 390, 430, 600, 768, 1024, 1440 px. No horizontal overflow, clipped headings, unintended panel shadows or page JS errors.
-- PASS four selected interaction/media smoke cases: EN/FA x 390/1440 px, all 3 images loaded after viewport scroll; theme toggle; mobile menu with Escape or desktop language selector; no page JS exceptions.
-- Reviewed homepage semantics, headings, canonical and hreflang metadata, JSON-LD syntax, alt text/image dimensions, internal linking, brand identity and key safety-related copy.
+The previous audit incorrectly treated the approved Persian translation as a defect. **That finding has been withdrawn and its source modification was reverted byte-for-byte.** Do not overwrite the Persian H1 with English in future work.
 
-## Important limitations
-Headless Chromium was tested using page.set_content with **actual local CSS, JS, fonts and images inlined** because browser navigation to localhost/file URLs is restricted in this environment. This is not a production HTTP test. Not performed: production deployment, live response headers/SSL/cache, full WCAG assistive-technology audit, full Lighthouse metrics, independent Safari/Firefox matrix, API/host security testing.
+## Source state and scope
 
-## Install
-Deploy archive: `ESPFlight_Home_20261120_DEPLOY_INSIDE_PUBLIC_HTML.zip` contains only **fa/index.html**. Back up the current live file first; compare to expected baseline hash. Extract directly inside the existing `public_html` (no extra nested folder).
+- `index.html` (English): unchanged from uploaded source.
+- `fa/index.html` (Persian): restored, byte-for-byte identical to uploaded source.
+- Persian original source SHA-256: `2a0d7b57efab5de90eab059f1b99f6ba4cf20b8f8060653392cefcd4b859aa4f`.
+- **Current Homepage HTML differences relative to uploaded source: zero**. No PHP, API, admin, app, firmware, JS, CSS or flight logic changes.
+- Previous "deploy" ZIP that contained the English hero in Persian page is obsolete and must not be installed. New correction/restore ZIP contains original Persian homepage.
 
-Rollback: `ESPFlight_Home_20261120_ROLLBACK_SOURCE_BASELINE.zip` contains the original **fa/index.html** from the uploaded source; only use on production after verifying the old version matches the actual host baseline, otherwise restore the live backup.
+## Tests
 
-No PHP/API/admin/app/firmware/flight logic, JS or CSS files were modified.
+- **PASS** `python api/esp/tests/site_integrity.py`: 164 pages, 162 sitemap URLs, 22,384 local references, 1,482 fragments after restoration.
+- **PASS** `python api/esp/tests/release_preflight_v57.py`: 164 HTML files, 50 CSS, 2,974 local asset references after restoration.
+- Verified actual English and Persian H1 strings and their lang/dir attributes against uploaded baseline.
+- Historical offline Chromium responsive checks: 32 combinations, prior audit; visual browser testing **not rerun after the restoration**.
+- Historical four selected interactions/media checks: prior audit; **not rerun**.
+- Live host, cache, HTTP headers, Lighthouse, independent browsers and production deployment: **not tested**.
 
-## Outcome
-Homepage: `ready_for_deploy` (local) — **not** `deployed_verified`. Next page in new audit sequence: **Platform** (EN/FA).
+## Release decision
+
+- If host already has the original Persian hero, **do not deploy any Homepage patch**.
+- If the earlier incorrect patch was installed, back up live `fa/index.html`, compare current state and restore the original file from `ESPFlight_Home_20261120_PERSIAN_SLOGAN_RESTORE.zip` only if appropriate. Then test live.
+- Homepage is recorded as locally reviewed with no required source changes, **not** live verified.
+
+## Next
+
+Page 002 **Platform**, English and Persian, follows in the new 82-page sequential audit.
